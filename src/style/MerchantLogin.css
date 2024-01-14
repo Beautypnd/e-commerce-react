@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.merchantlogin form{
+    height: 50vh;
+    width: 50vh;
+    position: absolute;
+    border: 2px solid black ;
+    margin-left:90vh;
+    margin-top: 20vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(122, 36, 36);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.merchantlogin form>button{
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(122, 36, 36);
+}
+/* .merchantlogin form>input{
+    
+} */

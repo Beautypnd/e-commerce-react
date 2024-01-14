@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.merchantsignup{
+    height: 100vh;
+    background: linear-gradient(280deg, blue,white);
+}
+
+.merchantsignup legend{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    
+}
+.merchantsignup input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(32, 31, 31);
+    font-size: 22px;
+   display: grid;
+  
+}
+.merchantsignup input:focus{
+   color:rgb(17, 16, 16);
+    outline: none;
+}
+
+.merchantsignup fieldset{
+    box-shadow: 0px 0px 10px white;
+    height: 450px;
+    width: 400px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    transform: translate(400px,100px);
+    background: linear-gradient(70deg,aqua,white);
+}
+.merchantsignup button{
+    padding: 10px 30px;
+    background-color: rgb(139, 98, 98);
+    color: white;
+    border-radius: 10px;
+}

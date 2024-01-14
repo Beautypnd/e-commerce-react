@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.productNavbar{
+    height: 7vw;
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options a{
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 30px;
+}
+.logo span{
+    color: brown;
+}
+.logo h1{
+    color:brown ;
+    font: italic;
+}
